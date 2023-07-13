@@ -1,0 +1,407 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width:575px) {
+    body {
+        width: 881px;
+        background-color: aliceblue;
+    }
+
+    header img {
+        display: none;
+    }
+
+    header h1 {
+        padding: 2rem;
+        font-size: 8rem;
+    }
+
+    .listamenu li {
+        padding: 1rem;
+        font-size: 2rem;
+        display: block;
+    }
+
+    .listamenu li a {
+        padding: 1rem;
+        font-size: 8rem;
+        display: block;
+    }
+}
+
+@media screen and (min-width:576px) and (max-width:767px) {
+    body {
+        width: 881px;
+        background-color: aliceblue;
+    }
+
+    header img {
+        display: none;
+    }
+
+    header h1 {
+        padding: 2rem;
+        font-size: 8rem;
+    }
+
+    .listamenu li {
+        padding: 1rem;
+        font-size: 2rem;
+        display: block;
+    }
+
+    .listamenu li a {
+        padding: 1rem;
+        font-size: 8rem;
+        display: block;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:991px) {
+    body {
+        width: 1055px;
+        background-color: aliceblue;
+    }
+
+    header img {
+        display: inline-block;
+    }
+
+    header h1 {
+        padding: 2rem;
+        font-size: 9rem;
+    }
+
+    .listamenu {
+        padding: 5rem;
+        display: inline-block;
+    }
+
+    .listamenu li a {
+        padding: 1rem;
+        font-size: 8rem;
+        display: block;
+    }
+}
+
+@media screen and (min-width:992px) {
+    body {
+        width: 1903px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: aliceblue;
+    }
+}
+
+
+header {
+    text-align: center;
+    padding: 2rem;
+    padding-top: 3.5rem;
+    background: linear-gradient(#3535e6, #f00707);
+    border-style: groove;
+    border-color: darkcyan;
+    border-width: 1rem;
+    border-top-width: 0.5rem;
+    border-bottom: 0;
+}
+
+h1 {
+    font-family: 'Bebas Neue';
+    display: inline;
+    padding: 10rem;
+    font-size: 10rem;
+}
+
+h1 a {
+    color: black;
+    text-decoration: none;
+}
+
+.logo {
+    padding: 10px;
+    display: inline;
+    vertical-align: text-bottom;
+}
+
+.listamenu {
+    background: radial-gradient(#dd9d14, #db721c, #f00707);
+    list-style-type: none;
+    text-align: center;
+    border-style: groove;
+    border-color: darkcyan;
+    border-width: 1rem;
+    border-top-width: 0.7rem;
+    clear: both;
+}
+
+.listamenu li {
+    display: inline-block;
+    padding: 2rem;
+    padding-top: 5rem;
+}
+
+.listamenu a {
+    font-family: 'Bebas Neue';
+    text-decoration: overline;
+    padding: 5rem;
+    color: rgb(231, 247, 11);
+    font-size: 5rem;
+    font-weight: 600;
+}
+
+.enc1 {
+    padding: 1.5rem;
+    margin-top: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 5rem;
+    font-weight: 900;
+    text-decoration: underline;
+    border: hidden;
+}
+
+.enc_form {
+    padding: 1.5rem;
+    margin-top: 4rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 3.5rem;
+    font-weight: 900;
+    text-decoration: underline;
+    border: hidden;
+}
+
+.section1 {
+    background: linear-gradient(-45deg, rgb(21, 233, 162) 28%, rgb(0, 0, 255));
+    padding: 1rem;
+    width: 100%;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.listacarrito {
+    background: linear-gradient(-45deg, rgb(21, 233, 162) 28%, rgb(0, 0, 255));
+    padding: 1rem;
+    width: 100%;
+}
+
+.listacarrito h2 {
+    font-size: 5rem;
+    text-align: left;
+    padding-left: 10rem;
+}
+
+.listacarrito li {
+    list-style: none;
+    margin-top: 5rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.listacarrito p {
+    font-size: 3.5rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 50rem;
+    text-align: right;
+}
+
+.oferta {
+    margin: 5rem;
+    padding: 1rem;
+    display: inline-table;
+    width: 20%;
+}
+
+.product {
+    margin: 5rem;
+    padding: 1rem;
+    display: inline-table;
+    width: 29%;
+}
+
+.preant {
+    text-decoration: line-through;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+h3 {
+    margin-bottom: 8rem;
+    text-decoration: underline;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h3 a {
+    color: black;
+}
+
+.cat {
+    font-size: 5rem;
+    margin-top: 8rem;
+    margin-bottom: 1rem;
+    text-decoration: underline;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h4 {
+    padding: 2.5rem;
+    display: inline;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.comprar {
+    margin-top: 3rem;
+    padding: 2rem;
+    display: inline-flexbox;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: #e915159a;
+    border-radius: 15px;
+}
+
+.imagen1 {
+    display: inline-block;
+    margin: 2rem;
+    padding: 0rem;
+    box-shadow: -5px 10px 4px black;
+}
+
+
+.enc2 {
+    padding: 1.5rem;
+    margin-top: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 5rem;
+    font-weight: 900;
+    text-decoration: underline;
+    border: hidden;
+
+}
+
+.section2 {
+    background: linear-gradient(45deg, #c4d33c 28%, #097422);
+    padding: 1rem;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.listacontacto {
+    background: linear-gradient(-45deg, rgb(21, 233, 162) 28%, rgb(0, 0, 255));
+    padding: 1rem;
+    width: 100%;
+}
+
+.listacontacto h2 {
+    font-size: 5rem;
+    text-align: left;
+    padding-left: 10rem;
+}
+
+.listacontacto li {
+    list-style: none;
+    border-style: groove;
+    border-color: darkcyan;
+    margin-top: 5rem;
+    border-width: 0.5rem;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    font-size: 3rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.preind {
+    text-align: right;
+    float: right;
+    width: 25%;
+    border: none;
+    font-size: 3.5rem;
+}
+
+.proind {
+    float: left;
+    display: inline;
+    font-size: 3rem;
+    border-width: 0.5rem;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-style: groove;
+    border-color: darkcyan;
+    width: 75%;
+}
+
+.compra_total {
+    width: 50%;
+    margin: 2rem;
+    margin-left: 25%;
+    font-size: 2rem;
+    margin-top: 3rem;
+    padding: 1.5rem;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: #e915159a;
+    border-radius: 15px;
+}
+
+.contacto li a {
+    color: black;
+    text-decoration: none;
+}
+
+.contacto_label {
+    padding: 0rem;
+    border-style: groove;
+    border-color: darkcyan;
+    border-width: 0.5rem;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    font-size: 3rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.contacto_input {
+    width: 90%;
+    margin: 1rem;
+    padding: 2rem;
+    font-size: 1.5rem;
+    display: block;
+}
+
+.envio_boton {
+    width: 50%;
+    margin: 2rem;
+    margin-left: 25%;
+    padding: 0.5rem;
+    font-size: 2.5rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: inline;
+}
+
+.pretot {
+    display: block;
+}
+
+.pdp {
+    color: rgb(145, 6, 138);
+    background-color: rgb(255, 145, 0);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.7rem;
+    text-align: center;
+    padding: 20px;
+    border-style: solid;
+    border-color: rgb(0, 4, 255);
+    border-width: 0.5rem;
+    border-radius: 15px;
+    clear: both;
+}

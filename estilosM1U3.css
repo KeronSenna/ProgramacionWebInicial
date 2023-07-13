@@ -1,0 +1,58 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: rgb(207, 80, 80);
+}
+
+body {
+    background-color: rgb(124, 82, 148);
+}
+
+.menu_principal {
+    list-style-type: none;
+    text-align: center;
+}
+
+.menu_principal li {
+    display: inline-block;
+    padding: 50px;
+}
+
+.menu_principal a {
+    color: black;
+    padding: 30px;
+    text-decoration: overline;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+h1 {
+    font-size: 5rem;
+    font-style: italic;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 70px;
+}
+
+p {
+    color: floralwhite;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: justify;
+    padding: 15px;
+}
+
+img {
+    padding-left: 1000px;
+    padding-top: 20px;
+}
+
+#PDP {
+    color: darkgray;
+    font-size: 1.1rem;
+    padding: 5px;
+}
